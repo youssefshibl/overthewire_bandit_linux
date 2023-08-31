@@ -1,4 +1,4 @@
-![cover](/media/shebl/Data/youssefshebl/db.sql/code/Bandit/cover.jpg)
+![cover](https://github.com/youssefshibl/overthewire_bandit_linux/assets/63800183/79bd2697-cb76-4ad7-8bae-03cc1205b570)
 
 # BANDIT
 
