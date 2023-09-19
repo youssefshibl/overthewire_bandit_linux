@@ -111,4 +111,16 @@
    # got ot level 14
   ````  
 
++ level 14
+
+  ````bash
+   cat /etc/bandit_pass/bandit14 # get password of current machine 
+   #"fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" # this is pass 
+   netcat localhost 30000
+   >fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+   >Correct!
+   >jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt # this is pass or level 15
+  ````  
+
+
 
