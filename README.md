@@ -82,13 +82,33 @@
 
   ````bash
    cat data.txt |base64 --decode # make decode to encoded string inside data.txt
-   "The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHB"
-   "6zPeziLdR2RKNdNYFNb6nVCKzphlXHB" #pass of level11
+   "The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM"
+   "6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM" #pass of level11
   ````
 
-  
 
++ level 11
 
+  ````bash
+   cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+   # translate or delete characters
+   "The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv"
+   "JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv" #pass of level12
+  ````
 
++ level 12
+
+  ````bash
+   # "https://david-varghese.medium.com/overthewire-bandit-level-12-level-13-2ec761a88907"
+   #"The password is wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw"
+   "wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw" # pass to level13
+  ````  
+
++ level 13
+
+  ````bash
+   ssh -i /home/bandit13/sshkey.private bandit14@localhost -p 2220
+   # got ot level 14
+  ````  
 
 
